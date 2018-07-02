@@ -24,6 +24,7 @@
 
 ## 切换分支，加上-b指令，表示创建并切换到这个分支
 > git checkout -b develop
+> git checkout develop
 
 ## 本地分支列表
 > git branch
