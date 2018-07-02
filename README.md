@@ -22,8 +22,11 @@
 ## 将本地文件提交到线上git库中
 > git push origin master
 
-## 切换分支
->
+## 切换分支，加上-b指令，表示创建并切换到这个分支
+> git checkout -b develop
+
+## 本地分支列表
+> git branch
 
 ## git add 后想要撤销
 > git reset HEAD
