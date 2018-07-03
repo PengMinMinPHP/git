@@ -1,4 +1,4 @@
-## git
+# git   Feng还未编辑完
 
 ### git下载后配置
 ### t的ssh key，这样就不用每次提交到git库需要输入密码
@@ -24,13 +24,29 @@
 ### 将本地文件提交到线上git库中
 > git push origin master
 
+### 更新远程库，撤回某一个指定版本
+> git log 查看历史的版本
+
+###--hard是指本地代码也会回到某个对应的版本 --soft是指本地代码不会回到某个对应版本，但是版本号会回到对应版本
+###回到过去的指定版本 
+> git reset --hard +版本号 
+
+###强制更新线上版本为本地的版本号
+> git push origin master --force 
+
 ### 切换分支，加上-b指令，表示创建并切换到这个分支
 > git checkout -b develop
 > git checkout develop
+
+###将git add进本地缓冲区的文件释放出来，此方法只针对不是新文件类型的文件
+> git checkout "demo.html"
 
 ### 本地分支列表
 > git branch
 
 ### git add 后想要撤销
 > git reset HEAD
+
+### .gitignore 标识忽略项目中的指定文件或者文件夹
+
 
