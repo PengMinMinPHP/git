@@ -55,4 +55,33 @@
 > \*.css  
 > git status
 
-## git init
+## 初始化
+> git init
+
+## 查看状态
+> git status
+
+## 提交修改
+1.提交所有修改到暂存区
+> git add .
+
+2.提交指定文件的修改到暂存区
+> git add filename
+
+3.提交修改到本地仓库  
+> git commit -m "modify"
+
+## 查看提交日志
+> git log
+
+## 对比区别
+1.对比所有区别
+> git diff
+
+2.对比制定文件的区别
+> git diff filename
+
+3.对比和本地仓库的区别
+> git diff --staged
+
+##
