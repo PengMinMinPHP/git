@@ -21,8 +21,7 @@
 查看gitconfig 文件, ~ 表示当前用户的主目录
 > cat ~/.gitconfig  
 > git config --global --list
-
-## 别名
+ 别名
 > git config --global alias.co checkout  
 > git co -b develop  
 > cat ~/.gitconfig  
@@ -130,9 +129,10 @@
 10.重命名分支
 > git branch -m demo demo-modify
 
-11.删除分支
-1.软删除
+11.删除分支  
+
+软删除
 > git branch -d demo-modify  
 
-2.强制删除
+强制删除
 > git branch -D demo-modify
