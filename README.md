@@ -88,7 +88,7 @@
 3.对比和本地仓库的区别
 > git diff --staged
 
-##日志
+## 日志
 1.单行显示日志
 > git log --oneline
 
