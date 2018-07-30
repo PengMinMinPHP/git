@@ -84,4 +84,36 @@
 3.对比和本地仓库的区别
 > git diff --staged
 
-##
+##日志
+1.单行显示日志
+> git log --oneline
+
+2.复杂点的日志显示
+> git log --oneline --decorate --all -10 --graph
+
+## 分支
+1.查看状态
+> git status
+
+2.查看分支列表
+> git branch
+
+3.创建分支
+> git branch demo
+
+4.切换分支
+> git checkout demo
+
+5.创建并切换到该分支
+> git checkout -b demo
+
+6.对比两个分支的区别
+> git diff master..demo  
+> f键向下翻页，w向上翻页, q键退出
+
+7.fast forward 合并分支
+> git merge demo  
+> 指当前的分支未做修改，去合并添加了修改的demo分支，结果是demo分支上的修改会添加到当前分支
+
+8.合并有冲突的分支
+123123
