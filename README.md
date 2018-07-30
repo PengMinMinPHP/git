@@ -7,6 +7,9 @@
 > git help add  
 > git add --help
 
+##生成密钥
+> ssh-keygen -r rsa -C "这里换上你的邮箱"
+
 ## 简单配置
 > git config --global user.name 'pengminmin'  
 > git config --list  
@@ -16,7 +19,8 @@
 > git config --global color.ui true
 
 查看gitconfig 文件, ~ 表示当前用户的主目录
-> cat ~/.gitconfig
+> cat ~/.gitconfig  
+> git config --global --list
 
 ## 别名
 > git config --global alias.co checkout  
