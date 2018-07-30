@@ -7,7 +7,7 @@
 > git help add  
 > git add --help
 
-##生成密钥
+## 生成密钥
 > ssh-keygen -r rsa -C "这里换上你的邮箱"
 
 ## 简单配置
