@@ -127,4 +127,8 @@
 > git branch -m demo demo-modify
 
 11.删除分支
-> git branch -d demo-modify
+1.软删除
+> git branch -d demo-modify  
+
+2.强制删除
+> git branch -D demo-modify
