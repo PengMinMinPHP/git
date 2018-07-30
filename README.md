@@ -113,8 +113,18 @@
 
 7.fast forward 合并分支
 > git merge demo  
-> 指当前的分支未做修改，去合并添加了修改的demo分支，结果是demo分支上的修改会添加到当前分支
+> 指当前的分支未做修改，去合并添加了修改的demo分支，结果是demo分支上的修改会添加到当前分支  
 
-8.合并有冲突的分支
-12312366666666666
-123123123
+8.合并没有冲突的分支
+> git merge demo  
+> 所有合并分支的结果都是只更新当前分支，不会修改demo分支
+
+9.合并有冲突的分支
+> git merge demo  
+> 当前分支和demo分支都对某部分代码有修改，会出现CONFLICT(冲突)，需要处理冲突，其中冲突中的head包裹的是当前分支，另一个包裹的是demo分支
+
+10.重命名分支
+> git branch -m demo demo-modify
+
+11.删除分支
+> git branch -d demo-modify
